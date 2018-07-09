@@ -1,7 +1,7 @@
 {
   "name": "pexraytech",
   "version": "1.0.0",
-  "description": "Coding Front End Assignment for Pexraytech to complete Pexraytech's interview process",
+  "description": "Coding Front End Assignment for P to complete P's interview process",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --hot --port 3000",
