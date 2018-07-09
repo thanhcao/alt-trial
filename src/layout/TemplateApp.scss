@@ -1,0 +1,18 @@
+$headerHeight:51px;
+.app-header{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index:100;
+  .header{
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    height:$headerHeight;
+  }
+}
+
+.app-body{
+  &.avoidHeader{
+    margin-top:$headerHeight;
+  }
+
+}
